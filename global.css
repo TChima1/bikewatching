@@ -8,3 +8,24 @@ body {
     margin: auto;
     padding: 1em;
   }
+
+  header {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+    width: 100%;
+  }
+  
+  label {
+    margin-left: auto;
+  }
+  
+  time, #any-time {
+    display: block;
+    text-align: center;
+  }
+  
+  #any-time {
+    color: #777;
+    font-style: italic;
+  }
